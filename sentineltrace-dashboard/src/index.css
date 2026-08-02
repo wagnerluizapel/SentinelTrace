@@ -1,0 +1,19 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte padrão */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Garantir que o root ocupe a tela inteira */
+#root {
+  min-height: 100vh;
+  display: flex;
+}

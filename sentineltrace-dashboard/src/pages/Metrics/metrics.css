@@ -1,0 +1,26 @@
+.metrics-container {
+  padding: 20px;
+}
+
+.metrics-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.metrics-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.metrics-table th,
+.metrics-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.metrics-table th {
+  background: #f4f4f4;
+  font-weight: bold;
+}

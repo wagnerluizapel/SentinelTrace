@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-SentinelTrace.Worker-8cb0a406-1afe-4cac-9830-6b7bf7a78240</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.15.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SentinelTrace.Application\SentinelTrace.Application.csproj" />
+    <ProjectReference Include="..\SentinelTrace.Infrastructure\SentinelTrace.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

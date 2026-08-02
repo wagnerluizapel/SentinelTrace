@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6792173D-AD65-49DA-9C4E-662448EE4512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelTrace.Api", "src\SentinelTrace.Api\SentinelTrace.Api.csproj", "{1B379B80-8E76-4718-BC6A-04B455189B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelTrace.Application", "src\SentinelTrace.Application\SentinelTrace.Application.csproj", "{E4402468-C008-4BE8-8B26-9DC19867DF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelTrace.Infrastructure", "src\SentinelTrace.Infrastructure\SentinelTrace.Infrastructure.csproj", "{AA4EF7E3-49B4-4628-BC4A-EF4957630908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelTrace.Domain", "src\SentinelTrace.Domain\SentinelTrace.Domain.csproj", "{81C1A0AF-8C34-47FD-8BDF-72E9855B46C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelTrace.Worker", "src\SentinelTrace.Worker\SentinelTrace.Worker.csproj", "{9336C61C-CAF9-4073-A966-4523BA75A139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B379B80-8E76-4718-BC6A-04B455189B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B379B80-8E76-4718-BC6A-04B455189B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B379B80-8E76-4718-BC6A-04B455189B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B379B80-8E76-4718-BC6A-04B455189B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4402468-C008-4BE8-8B26-9DC19867DF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4402468-C008-4BE8-8B26-9DC19867DF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4402468-C008-4BE8-8B26-9DC19867DF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4402468-C008-4BE8-8B26-9DC19867DF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4EF7E3-49B4-4628-BC4A-EF4957630908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4EF7E3-49B4-4628-BC4A-EF4957630908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4EF7E3-49B4-4628-BC4A-EF4957630908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4EF7E3-49B4-4628-BC4A-EF4957630908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C1A0AF-8C34-47FD-8BDF-72E9855B46C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C1A0AF-8C34-47FD-8BDF-72E9855B46C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C1A0AF-8C34-47FD-8BDF-72E9855B46C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C1A0AF-8C34-47FD-8BDF-72E9855B46C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9336C61C-CAF9-4073-A966-4523BA75A139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9336C61C-CAF9-4073-A966-4523BA75A139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9336C61C-CAF9-4073-A966-4523BA75A139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9336C61C-CAF9-4073-A966-4523BA75A139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B379B80-8E76-4718-BC6A-04B455189B05} = {6792173D-AD65-49DA-9C4E-662448EE4512}
+		{E4402468-C008-4BE8-8B26-9DC19867DF1E} = {6792173D-AD65-49DA-9C4E-662448EE4512}
+		{AA4EF7E3-49B4-4628-BC4A-EF4957630908} = {6792173D-AD65-49DA-9C4E-662448EE4512}
+		{81C1A0AF-8C34-47FD-8BDF-72E9855B46C9} = {6792173D-AD65-49DA-9C4E-662448EE4512}
+		{9336C61C-CAF9-4073-A966-4523BA75A139} = {6792173D-AD65-49DA-9C4E-662448EE4512}
+	EndGlobalSection
+EndGlobal

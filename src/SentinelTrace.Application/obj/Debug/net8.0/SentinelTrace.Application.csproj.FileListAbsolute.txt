@@ -1,0 +1,15 @@
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/bin/Debug/net8.0/SentinelTrace.Application.deps.json
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/bin/Debug/net8.0/SentinelTrace.Application.dll
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/bin/Debug/net8.0/SentinelTrace.Application.pdb
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/bin/Debug/net8.0/SentinelTrace.Domain.dll
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/bin/Debug/net8.0/SentinelTrace.Domain.pdb
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/SentinelTrace.Application.csproj.AssemblyReference.cache
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/SentinelTrace.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/SentinelTrace.Application.AssemblyInfoInputs.cache
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/SentinelTrace.Application.AssemblyInfo.cs
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/SentinelTrace.Application.csproj.CoreCompileInputs.cache
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/Sentinel.88B75732.Up2Date
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/SentinelTrace.Application.dll
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/refint/SentinelTrace.Application.dll
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/SentinelTrace.Application.pdb
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/ref/SentinelTrace.Application.dll

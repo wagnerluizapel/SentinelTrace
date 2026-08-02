@@ -1,0 +1,11 @@
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/bin/Debug/net8.0/SentinelTrace.Domain.deps.json
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/bin/Debug/net8.0/SentinelTrace.Domain.dll
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/bin/Debug/net8.0/SentinelTrace.Domain.pdb
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/SentinelTrace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/SentinelTrace.Domain.AssemblyInfoInputs.cache
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/SentinelTrace.Domain.AssemblyInfo.cs
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/SentinelTrace.Domain.csproj.CoreCompileInputs.cache
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/SentinelTrace.Domain.dll
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/refint/SentinelTrace.Domain.dll
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/SentinelTrace.Domain.pdb
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/ref/SentinelTrace.Domain.dll

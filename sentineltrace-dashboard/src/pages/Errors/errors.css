@@ -1,0 +1,33 @@
+.errors-container {
+  padding: 20px;
+}
+
+.errors-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.errors-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.errors-table th,
+.errors-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.errors-table th {
+  background: #f4f4f4;
+  font-weight: bold;
+}
+
+.stack {
+  max-width: 400px;
+  white-space: pre-wrap;
+  font-size: 12px;
+  color: #444;
+}

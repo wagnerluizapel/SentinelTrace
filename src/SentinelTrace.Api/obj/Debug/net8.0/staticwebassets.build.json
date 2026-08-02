@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2P9BsjT9vbIh8Sz4nFg6LAk78c6nm1lf6Ah40B3H8Ns=",
+  "Source": "SentinelTrace.Api",
+  "BasePath": "_content/SentinelTrace.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
