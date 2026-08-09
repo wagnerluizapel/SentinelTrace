@@ -15,12 +15,12 @@ export default function MetricsDetailsPage() {
   }, [id]);
 
   if (!metric) {
-    return <h2>Carregando detalhes...</h2>;
+    return <h2>Loading metric details...</h2>;
   }
 
   return (
     <div className="metrics-details-container">
-      <h1 className="metrics-title">Detalhes da Métrica</h1>
+      <h1 className="metrics-title">Metric Details</h1>
 
       <div className="metrics-section">
         <h2>ID</h2>
@@ -29,11 +29,11 @@ export default function MetricsDetailsPage() {
 
       <div className="metrics-section">
         <h2>Timestamp</h2>
-        <p>{metric.timestampUtc}</p>
+        <p>{metric.timestampUtc ?? "No timestamp available"}</p>
       </div>
 
       <div className="metrics-section">
-        <h2>Serviço</h2>
+        <h2>Service</h2>
         <p>{metric.service}</p>
       </div>
 

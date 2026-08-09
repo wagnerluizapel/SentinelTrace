@@ -15,12 +15,12 @@ export default function ErrorDetailsPage() {
   }, [id]);
 
   if (!error) {
-    return <h2>Carregando detalhes...</h2>;
+    return <h2>Loading error details...</h2>;
   }
 
   return (
     <div className="error-details-container">
-      <h1 className="error-title">Detalhes do Erro</h1>
+      <h1 className="error-title">Error Details</h1>
 
       <div className="error-section">
         <h2>ID</h2>
@@ -29,26 +29,26 @@ export default function ErrorDetailsPage() {
 
       <div className="error-section">
         <h2>Timestamp</h2>
-        <p>{error.timestampUtc ?? "Sem timestamp disponível"}</p>
+        <p>{error.timestampUtc ?? "No timestamp available"}</p>
       </div>
 
       <div className="error-section">
-        <h2>Serviço</h2>
+        <h2>Service</h2>
         <p>{error.service}</p>
       </div>
 
       <div className="error-section">
-        <h2>Mensagem</h2>
+        <h2>Message</h2>
         <p>{error.message}</p>
       </div>
 
       <div className="error-section">
-        <h2>Nível</h2>
+        <h2>Level</h2>
         <p>{error.level}</p>
       </div>
 
       <div className="error-section">
-        <h2>StackTrace</h2>
+        <h2>Stack Trace</h2>
         <pre className="stacktrace-box">{error.stackTrace}</pre>
       </div>
     </div>

@@ -140,3 +140,4 @@
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Api/obj/Debug/net8.0/SentinelTrace.Api.pdb
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Api/obj/Debug/net8.0/SentinelTrace.Api.genruntimeconfig.cache
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Api/obj/Debug/net8.0/ref/SentinelTrace.Api.dll
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Api/obj/Debug/net8.0/SentinelTrace.Api.sourcelink.json

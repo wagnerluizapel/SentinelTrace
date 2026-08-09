@@ -204,16 +204,17 @@ CORS
 
 Swagger
 
-🚀 How to Run
+🚀 How to Run:
 Backend
-Code
-dotnet restore
-dotnet build
-dotnet run
+  Code
+   dotnet restore
+   dotnet build
+   dotnet run
 Frontend
-Code
-npm install
-npm run dev
+  Code
+   npm install
+   npm run dev
+   
 📌 Current Status
 ✔ Health check fully functional
 ✔ Dynamic dashboard
@@ -238,3 +239,24 @@ frontend integration (React)
 ability to build real‑world systems
 
 above‑average engineering maturity
+
+
+📸 Screenshots
+
+### 🟢 Dashboard Overview
+![Dashboard](./screenshots/dashboard-page.png)
+
+### 📊 Logs Page
+![Logs](./screenshots/logs-page.png)
+
+### 🎯 Events Page
+![Events](./screenshots/events-page.png)
+
+### ❌ Errors Page
+![Errors](./screenshots/errors-page.png)
+
+### 📈 Metrics Page
+![Metrics](./screenshots/metrics-page.png)
+
+
+

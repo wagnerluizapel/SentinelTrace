@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SentinelTrace.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c605c8f9f256d8b2073a7c6258005dae5131f47b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SentinelTrace.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SentinelTrace.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

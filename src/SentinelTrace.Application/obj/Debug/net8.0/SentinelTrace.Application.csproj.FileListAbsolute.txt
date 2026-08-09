@@ -13,3 +13,4 @@
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/refint/SentinelTrace.Application.dll
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/SentinelTrace.Application.pdb
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/ref/SentinelTrace.Application.dll
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Application/obj/Debug/net8.0/SentinelTrace.Application.sourcelink.json

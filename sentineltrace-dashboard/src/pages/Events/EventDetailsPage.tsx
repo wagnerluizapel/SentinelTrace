@@ -15,12 +15,12 @@ export default function EventDetailsPage() {
   }, [id]);
 
   if (!event) {
-    return <h2>Carregando detalhes...</h2>;
+    return <h2>Loading event details...</h2>;
   }
 
   return (
     <div className="event-details-container">
-      <h1 className="event-title">Detalhes do Evento</h1>
+      <h1 className="event-title">Event Details</h1>
 
       <div className="event-section">
         <h2>ID</h2>
@@ -29,21 +29,21 @@ export default function EventDetailsPage() {
 
       <div className="event-section">
         <h2>Timestamp</h2>
-        <p>{event.timestampUtc}</p>
+        <p>{event.timestampUtc ?? "No timestamp available"}</p>
       </div>
 
       <div className="event-section">
-        <h2>Serviço</h2>
+        <h2>Service</h2>
         <p>{event.service}</p>
       </div>
 
       <div className="event-section">
-        <h2>Nível</h2>
+        <h2>Level</h2>
         <p>{event.level}</p>
       </div>
 
       <div className="event-section">
-        <h2>Mensagem</h2>
+        <h2>Message</h2>
         <p>{event.message}</p>
       </div>
     </div>

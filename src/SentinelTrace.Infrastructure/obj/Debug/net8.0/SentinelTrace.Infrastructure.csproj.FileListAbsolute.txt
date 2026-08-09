@@ -17,3 +17,4 @@
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Infrastructure/obj/Debug/net8.0/SentinelTrace.Infrastructure.pdb
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Infrastructure/obj/Debug/net8.0/SentinelTrace.Infrastructure.genruntimeconfig.cache
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Infrastructure/obj/Debug/net8.0/ref/SentinelTrace.Infrastructure.dll
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Infrastructure/obj/Debug/net8.0/SentinelTrace.Infrastructure.sourcelink.json

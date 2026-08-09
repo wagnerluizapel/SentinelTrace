@@ -9,3 +9,4 @@
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/refint/SentinelTrace.Domain.dll
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/SentinelTrace.Domain.pdb
 /Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/ref/SentinelTrace.Domain.dll
+/Users/wagnerapel/SentinelTrace/src/SentinelTrace.Domain/obj/Debug/net8.0/SentinelTrace.Domain.sourcelink.json
