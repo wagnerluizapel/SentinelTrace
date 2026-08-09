@@ -85,13 +85,13 @@ All inspired by platforms like Datadog, Grafana, and Kibana.
 
 The /api/health endpoint returns:
 
-json
-{
-  "status": "OK",
-  "database": "Connected",
-  "latencyMs": 6,
-  "timestamp": "2026-08-01T00:34:25Z"
-}
+json. 
+{. 
+  "status": "OK",  
+  "database": "Connected",  
+  "latencyMs": 6,  
+  "timestamp": "2026-08-01T00:34:25Z". 
+}. 
 
 It measures:
 
@@ -125,9 +125,9 @@ With filters:
 
 Log levels are automatically determined:
 
-✔ 200–299 → Info
-✔ 300–399 → Warning
-✔ 400+ or invalid → Error
+✔ 200–299 → Info. 
+✔ 300–399 → Warning. 
+✔ 400+ or invalid → Error. 
 
 ---
 ⚙️ Worker Service
