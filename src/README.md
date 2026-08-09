@@ -46,46 +46,37 @@ This project was designed to stand out to recruiters on platforms like LinkedIn,
 
 The solution follows Domain‑Driven Design principles, clearly separating:
 
-Domain — entities and business rules
+✔ Domain — entities and business rules
 
-Application — use cases, DTOs, services
+✔ Application — use cases, DTOs, services
 
-Infrastructure — database, repositories, EF Core
+✔ Infrastructure — database, repositories, EF Core
 
-API — minimal endpoints
+✔ API — minimal endpoints
 
-Worker — background processing
+✔ Worker — background processing
 
-Dashboard — monitoring interface
+✔ Dashboard — monitoring interface
 
 This structure ensures:
 
-scalability
-
-testability
-
-low coupling
-
-high cohesion
-
-maintainability
+ - scalability
+ - testability
+ - low coupling
+ - high cohesion
+ - maintainability
 
 ---
 📊 Observability (Datadog‑Style)
 
 The dashboard provides:
 
-Real‑time health check
-
-Database connectivity status
-
-API latency
-
-Log filtering by level (Info, Warning, Error)
-
-Request metrics
-
-Structured events and errors
+✔ Real‑time health check
+✔ Database connectivity status
+✔ API latency
+✔ Log filtering by level (Info, Warning, Error)
+✔ Request metrics
+✔ Structured events and errors
 
 All inspired by platforms like Datadog, Grafana, and Kibana.
 
@@ -134,9 +125,9 @@ With filters:
 
 Log levels are automatically determined:
 
-200–299 → Info
-300–399 → Warning
-400+ or invalid → Error
+✔ 200–299 → Info
+✔ 300–399 → Warning
+✔ 400+ or invalid → Error
 
 ---
 ⚙️ Worker Service
@@ -154,17 +145,12 @@ simulation of real pipelines
 
 The dashboard displays:
 
-System status
-
-Latency
-
-Database status
-
-Filtered logs
-
-Metrics
-
-Events
+✔ System status
+✔ Latency
+✔ Database status
+✔ Filtered logs
+✔ Metrics
+✔ Events
 
 With a modern, responsive UI and dynamic color feedback.
 
