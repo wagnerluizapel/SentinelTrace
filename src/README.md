@@ -9,6 +9,7 @@ Built with:
 * Worker Service
 * Real‑time dashboard
 
+---
 🎯 Project Purpose
 SentinelTrace was built to demonstrate strong engineering capabilities in:
 * Professional architecture (DDD + Clean Architecture)
@@ -21,6 +22,7 @@ SentinelTrace was built to demonstrate strong engineering capabilities in:
 * Modern engineering best practices
 This project was designed to stand out to recruiters on platforms like LinkedIn, Seek, and Indeed by showcasing the ability to build real systems, not just CRUD applications.
 
+---
 🏛️ Architecture (DDD + Clean Architecture) <br>
 The solution follows Domain‑Driven Design principles, clearly separating: <br>
 ✔ Domain — entities and business rules <br>
@@ -36,6 +38,7 @@ This structure ensures:
 * high cohesion
 * maintainability
 
+---
 📊 Observability (Datadog‑Style) <br>
 The dashboard provides: <br>
 ✔ Real‑time health check <br>
@@ -56,14 +59,17 @@ json
   "latencyMs": 6, <br>
   "timestamp": "2026-08-01T00:34:25Z" <br>
 } <br>
+
 It measures:
 * API availability
 * Database connectivity
 * Real request latency
+
 The dashboard displays: <br>
-🟢 OK
+🟢 OK  <br>
 🔴 Offline / Error
 
+---
 📝 Structured Logs
 The Logs page displays:
 * Service
@@ -89,6 +95,7 @@ The Worker handles asynchronous tasks such as:
 * event processing
 * simulation of real pipelines
 
+---
 🖥️ Dashboard (React + Vite) <br>
 The dashboard displays: <br>
 ✔ System status <br>
@@ -97,8 +104,10 @@ The dashboard displays: <br>
 ✔ Filtered logs <br>
 ✔ Metrics <br>
 ✔ Events <br>
+
 With a modern, responsive UI and dynamic color feedback.
 
+---
 📡 Main Endpoints
 Health  
 GET /api/health
@@ -111,6 +120,7 @@ GET /api/events
 Errors  
 GET /api/errors
 
+---
 🧪 Technologies Used
 * ASP.NET Core 8
 * EF Core
@@ -124,6 +134,7 @@ GET /api/errors
 * CORS
 * Swagger
 
+---
 🚀 How to Run
 Backend
 bash
@@ -137,6 +148,7 @@ bash
 npm install
 npm run dev
 
+---
 📌 Current Status <br>
 ✔ Health check fully functional <br>
 ✔ Dynamic dashboard <br>
@@ -147,6 +159,7 @@ npm run dev
 ✔ Clean architecture <br>
 ✔ Ready for LinkedIn / GitHub / Seek / Indeed <br>
 
+---
 🎉 Conclusion
 SentinelTrace demonstrates:
 * strong architectural skills
