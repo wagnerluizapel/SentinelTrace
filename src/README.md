@@ -21,14 +21,14 @@ SentinelTrace was built to demonstrate strong engineering capabilities in:
 * Modern engineering best practices
 This project was designed to stand out to recruiters on platforms like LinkedIn, Seek, and Indeed by showcasing the ability to build real systems, not just CRUD applications.
 
-🏛️ Architecture (DDD + Clean Architecture)
-The solution follows Domain‑Driven Design principles, clearly separating:
-✔ Domain — entities and business rules
-✔ Application — use cases, DTOs, services
-✔ Infrastructure — database, repositories, EF Core
-✔ API — minimal endpoints
-✔ Worker — background processing
-✔ Dashboard — monitoring interface
+🏛️ Architecture (DDD + Clean Architecture) <br>
+The solution follows Domain‑Driven Design principles, clearly separating: <br>
+✔ Domain — entities and business rules <br>
+✔ Application — use cases, DTOs, services <br>
+✔ Infrastructure — database, repositories, EF Core <br>
+✔ API — minimal endpoints <br>
+✔ Worker — background processing <br>
+✔ Dashboard — monitoring interface <br>
 This structure ensures:
 * scalability
 * testability
@@ -36,31 +36,31 @@ This structure ensures:
 * high cohesion
 * maintainability
 
-📊 Observability (Datadog‑Style)
-The dashboard provides:
-✔ Real‑time health check
-✔ Database connectivity status
-✔ API latency
-✔ Log filtering by level (Info, Warning, Error)
-✔ Request metrics
-✔ Structured events and errors
+📊 Observability (Datadog‑Style) <br>
+The dashboard provides: <br>
+✔ Real‑time health check <br>
+✔ Database connectivity status <br>
+✔ API latency <br>
+✔ Log filtering by level (Info, Warning, Error) <br>
+✔ Request metrics <br>
+✔ Structured events and errors <br>
 All inspired by platforms like Datadog, Grafana, and Kibana.
 
 ❤️ Advanced Health Check
 The /api/health endpoint returns:
 json
 
-{
-  "status": "OK",
-  "database": "Connected",
-  "latencyMs": 6,
-  "timestamp": "2026-08-01T00:34:25Z"
-}
+{ <br>
+  "status": "OK", <br>
+  "database": "Connected", <br>
+  "latencyMs": 6, <br>
+  "timestamp": "2026-08-01T00:34:25Z" <br>
+} <br>
 It measures:
 * API availability
 * Database connectivity
 * Real request latency
-The dashboard displays:
+The dashboard displays: <br>
 🟢 OK
 🔴 Offline / Error
 
@@ -71,16 +71,17 @@ The Logs page displays:
 * StatusCode
 * Level (Info, Warning, Error)
 * Timestamp
-* CorrelationId
+* CorrelationId <br>
+
 With filters:
 * All
 * Info
 * Warning
-* Error
-Log levels are automatically determined:
-✔ 200–299 → Info
-✔ 300–399 → Warning
-✔ 400+ or invalid → Error
+* Error <br>
+Log levels are automatically determined: <br>
+✔ 200–299 → Info <br>
+✔ 300–399 → Warning <br>
+✔ 400+ or invalid → Error <br>
 
 ⚙️ Worker Service
 The Worker handles asynchronous tasks such as:
@@ -88,14 +89,14 @@ The Worker handles asynchronous tasks such as:
 * event processing
 * simulation of real pipelines
 
-🖥️ Dashboard (React + Vite)
-The dashboard displays:
-✔ System status
-✔ Latency
-✔ Database status
-✔ Filtered logs
-✔ Metrics
-✔ Events
+🖥️ Dashboard (React + Vite) <br>
+The dashboard displays: <br>
+✔ System status <br>
+✔ Latency <br>
+✔ Database status <br>
+✔ Filtered logs <br>
+✔ Metrics <br>
+✔ Events <br>
 With a modern, responsive UI and dynamic color feedback.
 
 📡 Main Endpoints
