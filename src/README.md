@@ -23,7 +23,7 @@ SentinelTrace was built to demonstrate strong engineering capabilities in:
 This project was designed to stand out to recruiters on platforms like LinkedIn, Seek, and Indeed by showcasing the ability to build real systems, not just CRUD applications.
 
 ---
-🏛️ Architecture (DDD + Clean Architecture) <br>
+🏛️ Architecture (DDD + Clean Architecture)
 The solution follows Domain‑Driven Design principles, clearly separating: <br>
 ✔ Domain — entities and business rules <br>
 ✔ Application — use cases, DTOs, services <br>
@@ -31,6 +31,7 @@ The solution follows Domain‑Driven Design principles, clearly separating: <br>
 ✔ API — minimal endpoints <br>
 ✔ Worker — background processing <br>
 ✔ Dashboard — monitoring interface <br>
+
 This structure ensures:
 * scalability
 * testability
