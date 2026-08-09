@@ -1,16 +1,15 @@
-📘 SentinelTrace — Observability & Monitoring Platform
-A complete monitoring, metrics, logging, health check, and real‑time dashboard system inspired by enterprise‑grade tools such as Datadog, Grafana, New Relic, and Elastic APM.
-Built with:
+SentinelTrace — Observability & Monitoring Platform
+A complete monitoring, metrics, logging, health check, and real-time dashboard system inspired by enterprise-grade tools such as Datadog, Grafana, New Relic, and Elastic APM.
+Built with
 * ASP.NET Core 8 (Minimal APIs)
-* Domain‑Driven Design (DDD)
+* Domain-Driven Design (DDD)
 * Clean Architecture
 * React + Vite
 * EF Core + SQLite
 * Worker Service
-* Real‑time dashboard
+* Real-time dashboard
 
----
-🎯 Project Purpose
+Project Purpose
 SentinelTrace was built to demonstrate strong engineering capabilities in:
 * Professional architecture (DDD + Clean Architecture)
 * Observability and monitoring
@@ -20,18 +19,16 @@ SentinelTrace was built to demonstrate strong engineering capabilities in:
 * Interactive dashboard consuming real backend data
 * Frontend + backend integration
 * Modern engineering best practices
-This project was designed to stand out to recruiters on platforms like LinkedIn, Seek, and Indeed by showcasing the ability to build real systems, not just CRUD applications.
+This project was designed to stand out to recruiters by showcasing the ability to build real systems, not just CRUD applications.
 
----
-🏛️ Architecture (DDD + Clean Architecture)
-The solution follows Domain‑Driven Design principles, clearly separating: <br>
-✔ Domain — entities and business rules <br>
-✔ Application — use cases, DTOs, services <br>
-✔ Infrastructure — database, repositories, EF Core <br>
-✔ API — minimal endpoints <br>
-✔ Worker — background processing <br>
-✔ Dashboard — monitoring interface <br>
-
+Architecture (DDD + Clean Architecture)
+The solution follows Domain-Driven Design principles, clearly separating:
+* Domain — entities and business rules
+* Application — use cases, DTOs, services
+* Infrastructure — database, repositories, EF Core
+* API — minimal endpoints
+* Worker — background processing
+* Dashboard — monitoring interface
 This structure ensures:
 * scalability
 * testability
@@ -39,90 +36,79 @@ This structure ensures:
 * high cohesion
 * maintainability
 
----
-📊 Observability (Datadog‑Style) <br>
-The dashboard provides: <br>
-✔ Real‑time health check <br>
-✔ Database connectivity status <br>
-✔ API latency <br>
-✔ Log filtering by level (Info, Warning, Error) <br>
-✔ Request metrics <br>
-✔ Structured events and errors <br>
-All inspired by platforms like Datadog, Grafana, and Kibana.
+Observability
+The dashboard provides:
+* Real-time health check
+* Database connectivity status
+* API latency
+* Log filtering by level (Info, Warning, Error)
+* Request metrics
+* Structured events and errors
 
-❤️ Advanced Health Check
+Advanced Health Check
 The /api/health endpoint returns:
 json
 
-{ <br>
-  "status": "OK", <br>
-  "database": "Connected", <br>
-  "latencyMs": 6, <br>
-  "timestamp": "2026-08-01T00:34:25Z" <br>
-} <br>
-
+{
+  "status": "OK",
+  "database": "Connected",
+  "latencyMs": 6,
+  "timestamp": "2026-08-01T00:34:25Z"
+}
 It measures:
 * API availability
 * Database connectivity
 * Real request latency
+The dashboard displays:
+* OK
+* Offline / Error
 
-The dashboard displays: <br>
-🟢 OK  <br>
-🔴 Offline / Error
-
----
-📝 Structured Logs
+Structured Logs
 The Logs page displays:
 * Service
 * Endpoint
 * StatusCode
 * Level (Info, Warning, Error)
 * Timestamp
-* CorrelationId <br>
-
+* CorrelationId
 With filters:
 * All
 * Info
 * Warning
-* Error <br>
-Log levels are automatically determined: <br>
-✔ 200–299 → Info <br>
-✔ 300–399 → Warning <br>
-✔ 400+ or invalid → Error <br>
+* Error
+Log levels are automatically determined:
+* 200–299 → Info
+* 300–399 → Warning
+* 400+ or invalid → Error
 
-⚙️ Worker Service
+Worker Service
 The Worker handles asynchronous tasks such as:
 * metrics ingestion
 * event processing
 * simulation of real pipelines
 
----
-🖥️ Dashboard (React + Vite) <br>
-The dashboard displays: <br>
-✔ System status <br>
-✔ Latency <br>
-✔ Database status <br>
-✔ Filtered logs <br>
-✔ Metrics <br>
-✔ Events <br>
+Dashboard (React + Vite)
+The dashboard displays:
+* System status
+* Latency
+* Database status
+* Filtered logs
+* Metrics
+* Events
 
-With a modern, responsive UI and dynamic color feedback.
-
----
-📡 Main Endpoints
-Health  
+Main Endpoints
+Health
 GET /api/health
-Logs  
+Logs
 GET /api/logs
-Metrics  
+Metrics
 GET /api/metrics
-Events  
+Events
 GET /api/events
-Errors  
+Errors
 GET /api/errors
 
----
-🧪 Technologies Used
+Technologies Used
 * ASP.NET Core 8
 * EF Core
 * SQLite
@@ -135,8 +121,7 @@ GET /api/errors
 * CORS
 * Swagger
 
----
-🚀 How to Run
+How to Run
 Backend
 bash
 
@@ -149,27 +134,24 @@ bash
 npm install
 npm run dev
 
----
-📌 Current Status <br>
-✔ Health check fully functional <br>
-✔ Dynamic dashboard <br>
-✔ Log filtering <br>
-✔ Real latency measurement <br>
-✔ Database status <br>
-✔ Worker running <br>
-✔ Clean architecture <br>
-✔ Ready for LinkedIn / GitHub / Seek / Indeed <br>
+Current Status
+* Health check fully functional
+* Dynamic dashboard
+* Log filtering
+* Real latency measurement
+* Database status
+* Worker running
+* Clean architecture
+* Ready for LinkedIn / GitHub / Seek / Indeed
 
----
-🎉 Conclusion
+Conclusion
 SentinelTrace demonstrates:
 * strong architectural skills
 * solid observability knowledge
 * backend expertise (.NET)
 * frontend integration (React)
-* ability to build real‑world systems
-* above‑average engineering maturity
-
+* ability to build real-world systems
+* above-average engineering maturity
 ---
 📸 Screenshots
 
