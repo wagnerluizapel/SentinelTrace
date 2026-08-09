@@ -136,15 +136,15 @@ bash
 npm install
 npm run dev
 
-📌 Current Status
-✔ Health check fully functional
-✔ Dynamic dashboard
-✔ Log filtering
-✔ Real latency measurement
-✔ Database status
-✔ Worker running
-✔ Clean architecture
-✔ Ready for LinkedIn / GitHub / Seek / Indeed
+📌 Current Status <br>
+✔ Health check fully functional <br>
+✔ Dynamic dashboard <br>
+✔ Log filtering <br>
+✔ Real latency measurement <br>
+✔ Database status <br>
+✔ Worker running <br>
+✔ Clean architecture <br>
+✔ Ready for LinkedIn / GitHub / Seek / Indeed <br>
 
 🎉 Conclusion
 SentinelTrace demonstrates:
