@@ -1,43 +1,36 @@
 📘 SentinelTrace — Observability & Monitoring Platform
-
 A complete monitoring, metrics, logging, health check, and real‑time dashboard system inspired by enterprise‑grade tools such as Datadog, Grafana, New Relic, and Elastic APM.
 
 Built with:
 
- - ASP.NET Core 8 (Minimal APIs)
-
- - Domain‑Driven Design (DDD)
-
- - Clean Architecture
-
- - React + Vite
-
- - EF Core + SQLite
-
- - Worker Service
-
- - Real‑time dashboard
+- ASP.NET Core 8 (Minimal APIs)
+- Domain‑Driven Design (DDD)
+- Clean Architecture
+- React + Vite
+- EF Core + SQLite
+- Worker Service
+- Real‑time dashboard
 
 ---
 🎯 Project Purpose
 
 SentinelTrace was built to demonstrate strong engineering capabilities in:
 
- - Professional architecture (DDD + Clean Architecture)
+Professional architecture (DDD + Clean Architecture)
 
- - Observability and monitoring
+Observability and monitoring
 
- - Structured logging
+Structured logging
 
- - Performance metrics
+Performance metrics
 
- - Real health check (API + Database + Latency)
+Real health check (API + Database + Latency)
 
- - Interactive dashboard consuming real backend data
+Interactive dashboard consuming real backend data
 
-- Frontend + backend integration
+Frontend + backend integration
 
- - Modern engineering best practices
+Modern engineering best practices
 
 This project was designed to stand out to recruiters on platforms like LinkedIn, Seek, and Indeed by showcasing the ability to build real systems, not just CRUD applications.
 
@@ -47,24 +40,23 @@ This project was designed to stand out to recruiters on platforms like LinkedIn,
 The solution follows Domain‑Driven Design principles, clearly separating:
 
 ✔ Domain — entities and business rules
-
 ✔ Application — use cases, DTOs, services
-
 ✔ Infrastructure — database, repositories, EF Core
-
 ✔ API — minimal endpoints
-
 ✔ Worker — background processing
-
 ✔ Dashboard — monitoring interface
 
 This structure ensures:
 
- - scalability
- - testability
- - low coupling
- - high cohesion
- - maintainability
+✔ scalability
+
+✔ testability
+
+✔ low coupling
+
+✔ high cohesion
+
+✔ maintainability
 
 ---
 📊 Observability (Datadog‑Style)
@@ -85,19 +77,20 @@ All inspired by platforms like Datadog, Grafana, and Kibana.
 
 The /api/health endpoint returns:
 
-json. 
-{. 
-  "status": "OK",  
-  "database": "Connected",  
-  "latencyMs": 6,  
-  "timestamp": "2026-08-01T00:34:25Z". 
-}. 
-
+json
+{
+  "status": "OK",
+  "database": "Connected",
+  "latencyMs": 6,
+  "timestamp": "2026-08-01T00:34:25Z"
+}
 It measures:
 
- - API availability
- - Database connectivity
- - Real request latency
+API availability
+
+Database connectivity
+
+Real request latency
 
 The dashboard displays:
 
@@ -109,28 +102,36 @@ The dashboard displays:
 
 The Logs page displays:
 
- - Service
- - Endpoint
- - StatusCode
- - Level (Info, Warning, Error)
- - Timestamp
- - CorrelationId
+Service
+
+Endpoint
+
+StatusCode
+
+Level (Info, Warning, Error)
+
+Timestamp
+
+CorrelationId
 
 With filters:
 
-- All
-- Info
-- Warning
-- Error
+All
+
+Info
+
+Warning
+
+Error
 
 Log levels are automatically determined:
 
-✔ 200–299 → Info. 
-✔ 300–399 → Warning. 
-✔ 400+ or invalid → Error. 
+✔ 200–299 → Info
+✔ 300–399 → Warning
+✔ 400+ or invalid → Error
 
 ---
-⚙️ Worker Service
+⚙️ Worker Service:
 
 The Worker handles asynchronous tasks such as:
 
@@ -141,7 +142,7 @@ event processing
 simulation of real pipelines
 
 ---
-🖥️ Dashboard (React + Vite)
+🖥️ Dashboard (React + Vite):
 
 The dashboard displays:
 
@@ -156,64 +157,50 @@ With a modern, responsive UI and dynamic color feedback.
 
 ---
 📡 Main Endpoints
-
-Health:  
+Health  
 GET /api/health
 
-Logs:  
+Logs  
 GET /api/logs
 
-Metrics:  
+Metrics  
 GET /api/metrics
 
-Events:  
+Events  
 GET /api/events
 
-Errors:  
+Errors  
 GET /api/errors
 
 ---
-🧪 Technologies Used
+🧪 Technologies Used:
 
-ASP.NET Core 8
-
-+ EF Core
-
-+ SQLite
-
-+ React + Vite
-
-+ TypeScript
-
-+ Worker Service
-
-+ Clean Architecture
-
-+ DDD
-
-+ Fetch API
-
-+ CORS
-
-+ Swagger
+✔ ASP.NET Core 8
+✔ EF Core
+✔ SQLite
+✔ React + Vite
+✔ TypeScript
+✔ Worker Service
+✔ Clean Architecture
+✔ DDD
+✔ Fetch API
+✔ CORS
+✔ Swagger
 
 ---
 🚀 How to Run
-
-Backend:
+Backend
 bash
 dotnet restore
 dotnet build
 dotnet run
-
-Frontend:
+Frontend
 bash
 npm install
 npm run dev
 
 ---
-📌 Current Status:
-
+📌 Current Status
 ✔ Health check fully functional
 ✔ Dynamic dashboard
 ✔ Log filtering
@@ -225,14 +212,19 @@ npm run dev
 
 ---
 🎉 Conclusion
+SentinelTrace demonstrates:
 
-+ SentinelTrace demonstrates:
-+ strong architectural skills
-+ solid observability knowledge
-+ backend expertise (.NET)
-+ frontend integration (React)
-+ ability to build real‑world systems
-+ above‑average engineering maturity
+✔ strong architectural skills
+
+✔ solid observability knowledge
+
+✔ backend expertise (.NET)
+
+✔ frontend integration (React)
+
+✔ ability to build real‑world systems
+
+✔ above‑average engineering maturity
 
 ---
 📸 Screenshots
@@ -251,6 +243,3 @@ npm run dev
 
 ### 📈 Metrics Page
 ![Metrics](./screenshots/metrics-page.png)
-
-
-
